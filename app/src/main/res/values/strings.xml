@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flippo</string>
+
+    <!-- Button label -->
+    <string name="btn_accept">Accept</string>
+    <string name="btn_reject">Reject</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_replay_game">Replay</string>
+    <string name="btn_new_game">New game</string>
+    <string name="btn_high_score">High scores</string>
+
+    <!-- Tab label -->
+    <string name="tab_daily">Today</string>
+    <string name="tab_weekly">Weekly</string>
+    <string name="tab_all">All time</string>
+
+    <!-- Menu -->
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_high_scores">High scores</string>
+    <string name="menu_new_game">New game</string>
+
+    <!-- Preferences Category -->
+    <string name="pref_c_settings">Settings</string>
+    <string name="pref_c_support">Support</string>
+    <string name="pref_c_about">About</string>
+
+    <!-- Preferences - Settings -->
+    <!-- Enable animation -->
+    <string name="pref_t_animation_enabled">Enable animation</string>
+    <string name="pref_s_animation_enabled">Check to enable animation</string>
+    <!-- Enable sound -->
+    <string name="pref_t_sound_enabled">Enable sound</string>
+    <string name="pref_s_sound_enabled">Check to enable sound</string>
+
+    <!-- Category Support -->
+    <string name="support_t_help">Help</string>
+
+    <!-- Category About -->
+    <string name="about_t_changelog">Changelog</string>
+    <string name="about_t_version">Version: %s</string>
+    <string name="about_s_copyright">Copyright 2011-2017 HairyRobot. All rights reserved.</string>
+    <string name="about_t_license">License: MIT License</string>
+    <string name="about_s_license">https://opensource.org/licenses/MIT</string>
+    <string name="about_t_source_code">Source code</string>
+    <string name="about_s_source_code">https://github.com/HairyRobot/Flippo</string>
+
+    <!-- Puzzle solved dialog -->
+    <string name="puzzle_solved_title">Congratulation</string>
+    <string name="puzzle_solved_text">Puzzle solved in %s flips.</string>
+    <string name="puzzle_solved_9_text">Puzzle solved in %s flips.\n\nCan you complete the puzzle in 9 flips or less?</string>
+
+    <!-- One line dialog -->
+    <string name="one_line_dialog_text">%s</string>
+
+    <!-- Disclaimer -->
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="disclaimer_text">
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</string>
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <TableLayout
+        android:id="@+id/mainTable"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.f.Flippo.ui.FlippoView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="clickHandler"
+                android:scaleType="fitXY"
+                android:tag="1"
+                />
+
+            <com.f.Flippo.ui.FlippoView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="clickHandler"
+                android:scaleType="fitXY"
+                android:tag="2"
+                />
+
+            <com.f.Flippo.ui.FlippoView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="clickHandler"
+                android:scaleType="fitXY"
+                android:tag="3"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.f.Flippo.ui.FlippoView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="clickHandler"
+                android:scaleType="fitXY"
+                android:tag="4"
+                />
+
+            <com.f.Flippo.ui.FlippoView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="clickHandler"
+                android:scaleType="fitXY"
+                android:tag="5"
+                />
+
+            <com.f.Flippo.ui.FlippoView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="clickHandler"
+                android:scaleType="fitXY"
+                android:tag="6"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.f.Flippo.ui.FlippoView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="clickHandler"
+                android:scaleType="fitXY"
+                android:tag="7"
+                />
+
+            <com.f.Flippo.ui.FlippoView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="clickHandler"
+                android:scaleType="fitXY"
+                android:tag="8"
+                />
+
+            <com.f.Flippo.ui.FlippoView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:onClick="clickHandler"
+                android:scaleType="fitXY"
+                android:tag="9"
+                />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

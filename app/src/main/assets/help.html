@@ -1,0 +1,45 @@
+<html>
+<body text="#eeeeee" bgcolor="#303030" link="#00ffff" vlink="#00ffff">
+
+<center><h2>Flippo Help</h2></center>
+
+Flippo is a simple puzzle, the object is to flip the tiles until only the central tile is red.<br/><br/>
+You can only flip tiles in certain combinations as follow.<br/><br/>
+Assume we number the tiles like this:<br/>
+<br/>
+<table border="1" align="center">
+  <tr>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+  </tr>
+  <tr>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+  </tr>
+  <tr>
+    <th>7</th>
+    <th>8</th>
+    <th>9</th>
+  </tr>
+</table>
+<br/>
+If you flip any corner tile, all neighbouring tiles are flips. i.e. flipping tile 1, flip 2, 4 and 5 as well.<br/><br/>
+If you flip the middle tile of the top or bottom row, the whole row flips. i.e. flipping tile 8, flip 7 and 9 as well.<br/><br/>
+If you flip the middle tile of the leftmost or rightmost column, the whole column flips. i.e. flipping tile 4, flip 1 and 7 as well.<br/><br/>
+If you flip the central tile 5, tiles 2, 4, 6 and 8 are also flips.<br/><br/>
+In principle any board should be solvable in at most 9 flips.<br/><br/>
+There are 511 board combinations (127 unique combinations), can you solve them all in 9 flips of less.<br/><br/>
+
+
+<h3><u>Scoring system</u></h3>
+The fewer flips used to solve a board, the higher the score.<br/><br/>
+
+
+<h3><u>Settings</u></h3>
+<strong>Enable animation</strong>. Enable or disable animation effect. (Default: Enabled)<br/>
+<strong>Enable sound</strong>. Enable or disable sound effect. (Default: Enabled)<br/>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_c_settings">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="animationEnabled"
+            android:summary="@string/pref_s_animation_enabled"
+            android:title="@string/pref_t_animation_enabled"
+            />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="soundEnabled"
+            android:summary="@string/pref_s_sound_enabled"
+            android:title="@string/pref_t_sound_enabled"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_c_support">
+
+        <PreferenceScreen
+            android:title="@string/support_t_help">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.f.Flippo.HelpActivity"
+                android:targetPackage="com.f.Flippo"
+                />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_c_about">
+
+        <PreferenceScreen
+            android:title="@string/about_t_changelog">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.f.Flippo.ChangelogActivity"
+                android:targetPackage="com.f.Flippo"
+                />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="version"
+            android:summary="@string/about_s_copyright"
+            android:title="@string/about_t_version"
+            />
+        <PreferenceScreen
+            android:summary="@string/about_s_license"
+            android:title="@string/about_t_license"
+            />
+        <PreferenceScreen
+            android:summary="@string/about_s_source_code"
+            android:title="@string/about_t_source_code"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>
